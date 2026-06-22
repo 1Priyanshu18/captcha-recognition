@@ -1,10 +1,5 @@
 # Distorted Visual CAPTCHA Recognition
 
-**CIG AI/ML Open Project 2026 | IIT Roorkee**
-**Marshal | 24113051**
-
----
-
 ## Problem Statement
 
 Build a deep learning model that recognizes 6-character text sequences from visually distorted grayscale CAPTCHA images. Distortions include background noise, overlapping symbols, blur, occlusion, and irregular spacing.
@@ -63,7 +58,7 @@ A 6-head CNN treats each position independently with no sequential context. CRNN
 | Model | Val CER |
 |-------|---------|
 | 6-head CNN baseline | ~0.965 (failed to converge) |
-| Custom CRNN + CTC | **~0.029** |
+| Custom CRNN + CTC | ~0.026 |
 
 ---
 
