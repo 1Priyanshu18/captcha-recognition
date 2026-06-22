@@ -73,7 +73,6 @@ The CRNN substantially outperforms the per-position CNN baseline; beam search ov
 |----------|-----------|
 | Deep learning | `torch`, `torchvision` |
 | Imaging | `pillow`, `numpy` |
-| App / deploy | `streamlit`, `huggingface` |
 
 ---
 
